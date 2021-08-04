@@ -1,2 +1,8 @@
-**.DS*
-
+*#comment indicator is #. 
+#put \# for patterns that include #
+#each line is a pattern. space doesn't count
+#* matches everything except /
+#** even matches /
+/**/.DS_Store
+/**/.ipynb_checkpoints
+/ignore/**
